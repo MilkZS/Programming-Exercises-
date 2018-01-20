@@ -50,17 +50,16 @@ public class AnnualBonus {
 		int leftY;
 		int rightX;
 		int rightY;
-		// boolean bool_left = false;
-		// boolean bool_right = false;
+		
 		while (n < 6) {
 
 			loop = 0;
 			while (loop < n + 1) {
 
 				leftX = (n - loop);
-				leftY = (loop - 1);// < 0 ? bool_left = true : bool_left = false;
+				leftY = (loop - 1);
 
-				rightX = (n - loop - 1);// < 0 ? bool_right = true : bool_right = false;
+				rightX = (n - loop - 1);
 				rightY = loop;
 
 				if (leftY < 0) {
