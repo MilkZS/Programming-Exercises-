@@ -42,7 +42,7 @@ public class Rotate {
 	 * @return the matrix after turning 
 	 */
 	public int[][] rotateMatrix(int[][] mat, int n) {
-	        // write code here
+	      
 	        if(n == 1){
 	            return mat;
 	        }
