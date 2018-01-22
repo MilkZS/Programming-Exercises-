@@ -12,4 +12,4 @@
 - - -
 1. Annual bonus
 2. Rotate
-
+3. Maxmum Interval
